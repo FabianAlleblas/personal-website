@@ -4,7 +4,6 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
     color: #1d1d1d;
-    overflow: auto;
 }
 
 body{
@@ -65,7 +64,6 @@ body{
 .skills>h2{
     font-weight: 500;
     margin: 40px 0 30px 20px;
-    width: 100%;
 }
 
 .skills>ul{
