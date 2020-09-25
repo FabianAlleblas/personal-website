@@ -52,15 +52,13 @@ body {
 
 .intro-section > p {
   font-size: 0.9em;
-  margin: 25px 30px 0 13px;
+  margin: 25px 30px 0 20px;
   padding-left: 5px;
   border-left: 2px solid #1d1d1d;
 }
 
 .skills {
-  margin: 60px 30px 60px 13px;
-  padding: 5px 0 15px 5px;
-  border-left: 2px solid #1d1d1d;
+  margin: 60px 30px 60px 20px;
 }
 
 .skills > h2 {
