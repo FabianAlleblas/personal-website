@@ -145,7 +145,7 @@ body {
 }
 
 .bio {
-  margin: 60px 30px 60px 20px;
+  margin: 60px 30px 80px 20px;
 }
 
 .bio > h2 {
@@ -158,8 +158,37 @@ body {
   font-size: 0.95em;
 }
 
-.cv {
-  margin: 60px 30px 60px 20px;
+.curriculum {
+  margin: 60px 30px 40px 20px;
+}
+
+.curriculum > h2 {
+  font-weight: 500;
+  margin: 0 0 20px 0;
+}
+
+.curriculum > h4 {
+  font-weight: 300;
+  margin: 0;
+  border-left: 1px solid #1d1d1d;
+  padding-left: 5px;
+  padding-bottom: 10px;
+}
+
+.cv_company {
+  font-size: 0.95em;
+  margin: 0;
+  border-left: 1px solid #1d1d1d;
+  padding-left: 5px;
+}
+
+.cv_description {
+  font-size: 0.7em;
+  font-weight: 700;
+  font-style: italic;
+  margin: 0 0 20px 0;
+  border-left: 1px solid #1d1d1d;
+  padding-left: 5px;
 }
 
 footer {
