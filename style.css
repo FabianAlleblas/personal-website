@@ -35,8 +35,9 @@ body {
   text-decoration: none;
   font-size: 0.75em;
   font-weight: 300px;
-  margin: 5px;
+  margin-right: 5px;
   border-bottom: 1px solid #1d1d1d;
+  transition: 0.1s;
 }
 
 .navbar > a:hover {
@@ -327,8 +328,9 @@ footer > h1 {
     margin-left: 20px;
   }
 
-  .main-header > nav > a {
+  .navbar > a {
     font-size: 0.9em;
+    margin-left: 10px;
   }
 
   .intro {
@@ -378,6 +380,12 @@ footer > h1 {
   .social > a {
     width: 250px;
     height: max-content;
+    transition: 0.3s;
+  }
+
+  .social > a:hover {
+    scale: 1.1;
+    opacity: 0.8;
   }
 
   .bio,
