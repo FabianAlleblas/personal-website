@@ -209,7 +209,7 @@ footer > h1 {
   .grid-wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 4;
+    grid-template-rows: auto;
   }
 
   .intro {
@@ -291,6 +291,7 @@ footer > h1 {
 
   .intro > img {
     margin-left: 30px;
+    min-width: 0;
   }
 
   .intro > p {
