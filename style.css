@@ -374,13 +374,13 @@ footer > h1 {
   }
 
   .contact > h3 {
-    font-size: 1.7em;
+    font-size: 1.3em;
     margin: 50px 0 0 0;
   }
 
   .contact > a {
     font-weight: 300;
-    font-size: 1.5em;
+    font-size: 1.1em;
     margin: 50px 50px 0 30px;
     transition: 0.1s;
   }
@@ -393,16 +393,18 @@ footer > h1 {
 
   .social {
     margin: 50px 0 0 0;
+    padding: 0 180px 0 180px;
     width: 100%;
     box-shadow: 5px 5px 6px rgba(29, 29, 29, 0.1);
   }
 
   .social > h2 {
+    font-size: 1.3em;
     justify-self: center;
   }
 
   .social > a {
-    width: 250px;
+    width: 200px;
     height: max-content;
     transition: 0.3s;
   }
