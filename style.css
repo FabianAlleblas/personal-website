@@ -273,3 +273,36 @@ footer > h1 {
     margin: 60px 30px 60px 0;
   }
 }
+
+@media only screen and (min-width: 992px) {
+  .intro {
+    display: flex;
+    align-items: center;
+  }
+
+  .intro > img {
+    max-width: 60%;
+  }
+
+  .intro > p {
+    margin: 0 30px 0 30px;
+    padding: 5px 0 5px 10px;
+  }
+
+  .contact {
+    margin: 60px 0 0 0;
+    width: 60%;
+    justify-self: center;
+    text-align: center;
+  }
+
+  .social > a {
+    width: 200px;
+    height: 160px;
+  }
+
+  .curriculum {
+    margin: auto;
+    margin-top: 60px;
+  }
+}
