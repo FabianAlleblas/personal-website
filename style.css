@@ -404,6 +404,7 @@ footer > h1 {
   }
 
   .social > a {
+    margin-bottom: 50px;
     width: 200px;
     height: max-content;
     transition: 0.3s;
