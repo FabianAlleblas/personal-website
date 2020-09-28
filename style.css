@@ -179,14 +179,14 @@ body {
   padding-bottom: 10px;
 }
 
-.cv_company {
+.cv-company {
   font-size: 0.95em;
   margin: 0;
   border-left: 1px solid #1d1d1d;
   padding-left: 5px;
 }
 
-.cv_description {
+.cv-description {
   font-size: 0.7em;
   font-weight: 700;
   font-style: italic;
@@ -431,11 +431,11 @@ footer > h5 {
     font-size: 1.2em;
   }
 
-  .cv_company {
+  .cv-company {
     font-size: 1.1em;
   }
 
-  .cv_description {
+  .cv-description {
     font-size: 0.8em;
   }
 }
