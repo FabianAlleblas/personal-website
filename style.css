@@ -111,7 +111,6 @@ body {
 
 .social {
   display: grid;
-  grid-template-rows: 3;
   grid-template-columns: repeat(2, 1fr);
   margin: 0 20px 0 20px;
 }
@@ -213,7 +212,6 @@ footer > h5 {
   .grid-wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
   }
 
   .intro {
