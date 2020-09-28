@@ -152,26 +152,26 @@ body {
   margin: 60px 30px 80px 20px;
 }
 
-.bio > h2 {
+.bio-headline {
   font-weight: 500;
   margin: 0 0 20px 0;
 }
 
-.bio > p {
+.bio-text {
   margin: 0 0 20px 0;
   font-size: 0.95em;
 }
 
-.curriculum {
+.cv {
   margin: 60px 30px 60px 20px;
 }
 
-.curriculum > h2 {
+.cv-headline {
   font-weight: 500;
   margin: 0 0 20px 0;
 }
 
-.curriculum > h4 {
+.cv-date {
   font-weight: 300;
   margin: 0;
   border-left: 1px solid #1d1d1d;
@@ -195,13 +195,13 @@ body {
   padding-left: 5px;
 }
 
-footer {
+.footer {
   height: 55px;
   display: flex;
   box-shadow: 4px 4px 10px #1d1d1d;
 }
 
-footer > h5 {
+.footer-headline {
   margin: auto;
   margin-left: 10px;
   font-size: 1.3em;
@@ -274,7 +274,7 @@ footer > h5 {
     margin: 60px 0 40px 30px;
   }
 
-  .curriculum {
+  .cv {
     justify-self: right;
     margin: 60px 30px 40px 0;
   }
@@ -314,7 +314,7 @@ footer > h5 {
     height: 160px;
   }
 
-  .curriculum {
+  .cv {
     justify-self: center;
     margin: 60px 0 40px 0;
   }
@@ -326,7 +326,7 @@ footer > h5 {
   }
 
   .header-headline,
-  footer > h5 {
+  .footer-headline {
     font-size: 1.5em;
     margin-left: 20px;
   }
@@ -371,7 +371,7 @@ footer > h5 {
     box-shadow: -5px -5px 6px rgba(29, 29, 29, 0.1);
   }
 
-  .contact-header {
+  .contact-headline {
     display: none;
   }
 
@@ -400,7 +400,7 @@ footer > h5 {
     box-shadow: 5px 5px 6px rgba(29, 29, 29, 0.1);
   }
 
-  .social-header {
+  .social-headline {
     font-size: 1.3em;
     justify-self: center;
   }
@@ -419,15 +419,15 @@ footer > h5 {
   }
 
   .bio,
-  .curriculum {
+  .cv {
     margin-top: 100px;
     margin-bottom: 60px;
   }
 
-  .bio > p {
+  .bio-text {
     font-size: 1em;
   }
-  .curriculum > h4 {
+  .cv-date {
     font-size: 1.2em;
   }
 
