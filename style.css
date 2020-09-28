@@ -96,17 +96,17 @@ body {
   border-top: 2px dotted #1d1d1d;
 }
 
-.contact > h2 {
+.contact-header {
   margin: 0 0 20px 0;
   font-weight: 500;
 }
 
-.contact > h3 {
+.contact-type {
   margin: 20px 0 10px 0;
   font-weight: 500;
 }
 
-.contact > a {
+.contact-link {
   color: #1d1d1d;
 }
 
