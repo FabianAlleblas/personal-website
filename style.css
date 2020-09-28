@@ -31,7 +31,7 @@ body {
   margin-right: 20px;
 }
 
-.navbar-links {
+.navbar-link {
   color: #1d1d1d;
   text-decoration: none;
   font-size: 0.75em;
@@ -117,14 +117,14 @@ body {
   margin: 0 20px 0 20px;
 }
 
-.social > h2 {
+.social-header {
   grid-column: 1 / 3;
   justify-self: center;
   margin: 0 0 20px 0;
   font-weight: 500;
 }
 
-.social > a {
+.social-card {
   display: block;
   background-color: #1d1d1d;
   opacity: 0.3;
@@ -139,11 +139,11 @@ body {
   box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.5);
 }
 
-.social > a > img {
+.social-logo {
   max-width: 50%;
 }
 
-.social > a > h3 {
+.social-name {
   font-size: 1.2em;
   color: white;
   font-weight: 500;
@@ -267,7 +267,7 @@ footer > h5 {
     grid-template-columns: repeat(4, 1fr);
   }
 
-  .social > h2 {
+  .social-header {
     grid-column: 1 / 5;
     margin-bottom: 40px;
     justify-self: left;
@@ -312,7 +312,7 @@ footer > h5 {
     text-align: center;
   }
 
-  .social > a {
+  .social-card {
     width: 200px;
     height: 160px;
   }
@@ -403,19 +403,19 @@ footer > h5 {
     box-shadow: 5px 5px 6px rgba(29, 29, 29, 0.1);
   }
 
-  .social > h2 {
+  .social-header {
     font-size: 1.3em;
     justify-self: center;
   }
 
-  .social > a {
+  .social-card {
     margin-bottom: 50px;
     width: 200px;
     height: max-content;
     transition: 0.3s;
   }
 
-  .social > a:hover {
+  .social-card:hover {
     scale: 1.1;
     opacity: 0.8;
     box-shadow: 10px 10px 8px 0 rgba(0, 0, 0, 0.7);
