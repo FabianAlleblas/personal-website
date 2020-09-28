@@ -331,7 +331,7 @@ body {
     margin-left: 20px;
   }
 
-  .navbar-links {
+  .navbar-link {
     font-size: 0.9em;
     margin-left: 10px;
   }
@@ -387,7 +387,7 @@ body {
     transition: 0.1s;
   }
 
-  .contact > a:hover {
+  .contact-link:hover {
     color: #fde182;
     cursor: pointer;
     border-bottom: none;
