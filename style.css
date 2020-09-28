@@ -68,7 +68,7 @@ body {
   margin: 0 0 15px 0;
 }
 
-.skill-tags {
+.skill-tag {
   display: flex;
   flex-wrap: wrap;
   padding: 0;
@@ -76,11 +76,11 @@ body {
   list-style-type: none;
 }
 
-.skill-tags:nth-of-type(1) {
+.skill-tag:nth-of-type(1) {
   margin-bottom: 30px;
 }
 
-.skill-tags > li {
+.skill-tag > li {
   background-color: #fde182;
   font-size: 0.8em;
   font-weight: 500;
@@ -222,7 +222,7 @@ footer > h5 {
     grid-row: 1/ 2;
   }
 
-  .intro > p {
+  .intro-text {
     width: 65%;
     margin-left: 20px;
   }
@@ -243,17 +243,17 @@ footer > h5 {
     border: 2px dotted #1d1d1d;
   }
 
-  .contact > h2 {
+  .contact-header {
     font-size: 1.1em;
     margin: 0 0 10px 0;
   }
 
-  .contact > h3 {
+  .contact-type {
     margin: 0 0 5px 0;
     font-size: 0.9em;
   }
 
-  .contact > a {
+  .contact-link {
     display: block;
     font-size: 0.9em;
     margin: 0 0 15px 0;
@@ -294,12 +294,12 @@ footer > h5 {
     margin-top: 20px;
   }
 
-  .intro > img {
+  .intro-image {
     margin-left: 30px;
     min-width: 0;
   }
 
-  .intro > p {
+  .intro-text {
     margin: 0 30px 0 30px;
     padding: 5px 0 5px 10px;
     width: 75%;
@@ -328,13 +328,13 @@ footer > h5 {
     font-size: 1.7em;
   }
 
-  .main-header > h1,
+  .header-h1,
   footer > h5 {
     font-size: 1.5em;
     margin-left: 20px;
   }
 
-  .navbar > a {
+  .navbar-links {
     font-size: 0.9em;
     margin-left: 10px;
   }
@@ -345,7 +345,7 @@ footer > h5 {
     margin-top: 30px;
   }
 
-  .intro > p {
+  .intro-text {
     width: 100%;
     margin-top: 25px;
     font-size: 1.1em;
@@ -358,7 +358,7 @@ footer > h5 {
     margin: auto;
   }
 
-  .skills > ul > li {
+  .skill-tag > li {
     font-size: 1em;
     margin-right: 20px;
   }
@@ -374,16 +374,16 @@ footer > h5 {
     box-shadow: -5px -5px 6px rgba(29, 29, 29, 0.1);
   }
 
-  .contact > h2 {
+  .contact-header {
     display: none;
   }
 
-  .contact > h3 {
+  .contact-type {
     font-size: 1.3em;
     margin: 50px 0 0 0;
   }
 
-  .contact > a {
+  .contact-link {
     font-weight: 300;
     font-size: 1.1em;
     margin: 50px 50px 0 30px;
