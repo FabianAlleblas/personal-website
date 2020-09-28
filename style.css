@@ -198,7 +198,7 @@ footer {
   box-shadow: 4px 4px 10px #1d1d1d;
 }
 
-footer > h1 {
+footer > h5 {
   margin: auto;
   margin-left: 10px;
   font-size: 1.3em;
@@ -324,7 +324,7 @@ footer > h1 {
   }
 
   .main-header > h1,
-  footer > h1 {
+  footer > h5 {
     font-size: 1.5em;
     margin-left: 20px;
   }
