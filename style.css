@@ -43,7 +43,6 @@ body {
 
 .navbar-links:hover {
   color: #fde182;
-  cursor: pointer;
   border-bottom: none;
 }
 
