@@ -17,7 +17,5 @@
     "url": "https://github.com/FabianAlleblas/personal-website/issues"
   },
   "homepage": "https://github.com/FabianAlleblas/personal-website#readme",
-  "dependencies": {
-    "live-server": "^1.2.1"
-  }
+  "dependencies": {}
 }
